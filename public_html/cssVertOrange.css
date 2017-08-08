@@ -28,6 +28,16 @@
 	display: none;
 }
 
+#menuLeft a
+{
+	color: #fff;
+}
+
+#menuLeft a:hover
+{
+	color: black;
+}
+
 @media only screen and (min-width: 768px) {
 	#navbarTop
 	{
@@ -38,5 +48,7 @@
 	{
 		display: block;
 		position: fixed;
+		top: 33%;
+		left:0%;
 	}
 }
