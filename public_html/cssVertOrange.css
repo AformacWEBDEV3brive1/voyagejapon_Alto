@@ -62,3 +62,15 @@
 		right: 0;
 	}
 }
+
+#belleImage .paysage{
+    width: 100%;
+}
+
+#engagements .fa-plane{
+    font-size: 100px;
+}
+
+#engagements .avion{
+    background-image: url(image/avion.png);
+}
