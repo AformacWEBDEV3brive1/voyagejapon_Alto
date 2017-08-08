@@ -21,14 +21,13 @@
 #navbarTop
 {
 	min-height: 60px;
-	padding-left: 0px;
-	padding-right: 0px;
-	width: 100%;
+
 }
 
 #menuLeft
 {
 	display: none;
+
 }
 
 #menuLeft a
@@ -39,6 +38,21 @@
 #menuLeft a:hover
 {
 	color: black;
+}
+
+#destinations .row
+{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#destinations .imageDestination
+{
+	width: 100%;
+}
+
+#destinations .blocDestination
+{
+	border: solid black 1px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -52,16 +66,26 @@
 		display: block;
 		position: fixed;
 		top: 33%;
-		width: 20%;
+		left: 0%;
+		min-width: 115px;
+		width: 10%;
 	}
 	
 	#siteContenu
 	{
-		width: 80%;
+
 		position :absolute;
-		right: 0;
+		right: 0px;
+		width:90%;
+	}
+	
+	#destinations .imageDestination
+	{
+		height: 60%;
 	}
 }
+
+
 
 #belleImage .paysage{
     width: 100%;
