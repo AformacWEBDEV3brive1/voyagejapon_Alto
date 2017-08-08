@@ -17,3 +17,26 @@
 .policeVert{
     color: #00561B;
 }
+
+#navbarTop
+{
+	min-height: 60px;
+}
+
+#menuLeft
+{
+	display: none;
+}
+
+@media only screen and (min-width: 768px) {
+	#navbarTop
+	{
+		display: none;
+	}
+	
+	#menuLeft
+	{
+		display: block;
+		position: fixed;
+	}
+}
