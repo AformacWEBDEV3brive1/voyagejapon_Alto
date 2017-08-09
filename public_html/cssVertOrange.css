@@ -42,8 +42,8 @@
 
 #destinations .row
 {
-	margin-left: 0px;
-	margin-right: 0px;
+	/*margin-left: 0px;
+	margin-right: 0px;*/
 }
 #destinations .imageDestination
 {
@@ -68,15 +68,15 @@
 		top: 33%;
 		left: 0%;
 		min-width: 115px;
-		width: 10%;
+		width: 20%;
 	}
 	
 	#siteContenu
 	{
 
 		position :absolute;
-		right: 0px;
-		width:90%;
+		right: 0%;
+		width:80%;
 	}
 	
 	#destinations .imageDestination
@@ -91,8 +91,11 @@
     width: 100%;
 }
 
-.fa-plane{
-    font-size: 100px;
+@media only screen and (min-width: 768px){
+    
+    #belleImage .paysage{
+        background-image: url(image/belle_image.jpg);
+    }
 }
 
 .avion{
@@ -109,4 +112,10 @@
 .engagement{
     color: white;
     padding-top: 111%;
+}
+
+.back_image{
+    background-color: #FEA347;
+    width: 130px;
+    height: 110px;
 }
