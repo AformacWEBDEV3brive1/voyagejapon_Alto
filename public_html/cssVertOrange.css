@@ -87,16 +87,10 @@
 
 
 
-#belleImage .paysage{
+.paysage{
     width: 100%;
 }
 
-@media only screen and (min-width: 768px){
-    
-    #belleImage .paysage{
-        background-image: url(image/belle_image.jpg);
-    }
-}
 
 .avion{
     background-image: url(image/avion.png);
@@ -114,8 +108,3 @@
     padding-top: 111%;
 }
 
-.back_image{
-    background-color: #FEA347;
-    width: 130px;
-    height: 110px;
-}
