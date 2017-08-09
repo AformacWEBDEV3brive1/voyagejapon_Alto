@@ -20,69 +20,69 @@
 
 #navbarTop
 {
-	min-height: 60px;
+    min-height: 60px;
 
 }
 
 #menuLeft
 {
-	display: none;
+    display: none;
 
 }
 
 #menuLeft a
 {
-	color: #fff;
+    color: #fff;
 }
 
 #menuLeft a:hover
 {
-	color: black;
+    color: black;
 }
 
 #destinations .row
 {
-	/*margin-left: 0px;
-	margin-right: 0px;*/
+    /*margin-left: 0px;
+    margin-right: 0px;*/
 }
 #destinations .imageDestination
 {
-	width: 100%;
+    width: 100%;
 }
 
 #destinations .blocDestination
 {
-	border: solid black 1px;
+    border: solid black 1px;
 }
 
 @media only screen and (min-width: 768px) {
-	#navbarTop
-	{
-		display: none;
-	}
-	
-	#menuLeft
-	{
-		display: block;
-		position: fixed;
-		top: 33%;
-		left: 0%;
-		min-width: 115px;
-		width: 20%;
-	}
-	
-	#siteContenu
-	{
+    #navbarTop
+    {
+        display: none;
+    }
 
-		position :absolute;
-		right: 0%;
-		width:80%;
-	}
-	
-	#destinations .imageDestination
-	{
-		height: 60%;
-	}
+    #menuLeft
+    {
+        display: block;
+        position: fixed;
+        top: 33%;
+        left: 0%;
+        min-width: 115px;
+        width: 20%;
+    }
+
+    #siteContenu
+    {
+
+        position :absolute;
+        right: 0%;
+        width:80%;
+    }
+
+    #destinations .imageDestination
+    {
+        height: 60%;
+    }
 }
 
 
@@ -94,17 +94,19 @@
 
 .avion{
     background-image: url(image/avion.png);
-    background-size: 100% 100%;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
 .taille{
-    width: 120px;
+    width: 100px;
     height: 100px;
+    padding-left: 23%;
 }
 
 .engagement{
-    color: white;
-    padding-top: 111%;
+   color:white;
+   
 }
+
 
