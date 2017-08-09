@@ -40,6 +40,11 @@
 	color: black;
 }
 
+#menuLeft a:visited
+{
+	color: black;
+}
+
 #destinations .row
 {
 	/*margin-left: 0px;
@@ -53,6 +58,16 @@
 #destinations .blocDestination
 {
 	border: solid black 1px;
+}
+
+#footer h3:hover
+{
+	color: #FEA347;
+}
+
+#footer li a:hover
+{
+	color: #FEA347;
 }
 
 @media only screen and (min-width: 768px) {

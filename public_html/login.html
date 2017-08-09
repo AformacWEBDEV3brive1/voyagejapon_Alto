@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Vert Orangé : Login</title>
+		<meta charset="UTF-8">
+		<link href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="cssVertOrange.css" />
+		<script src="connexion.js"></script>
+	</head>
+	<body>
+		<div class="container bgOrange">
+			<form method="post" action="">
+				<div class="row form-group centrer">
+					<div class="col-12">
+						<p>Login</p>
+						<input type="text" id="identifiant"
+							placeholder="Entrez votre identifiant ou adresse mail"
+							class="form-control"  />
+					</div>
+					<div class="col-12">
+						<p>Mot de passe</p>
+						<input type="password" id="mdp"
+							placeholder="Entrez votre mot de passe"
+							class="form-control"  />
+					</div>
+				</div>
+				<input type="submit" class="btn btn-success" onclick="connexion()" />
+				<input type="reset" name="resetbutton" value="Annuler" class="btn btn-danger"/>
+			</form>
+		</div>
+	</body>
+</html>
