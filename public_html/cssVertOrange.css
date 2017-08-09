@@ -27,7 +27,6 @@
 #menuLeft
 {
 	display: none;
-
 }
 
 #menuLeft a
@@ -45,11 +44,6 @@
 	color: black;
 }
 
-#destinations .row
-{
-	/*margin-left: 0px;
-	margin-right: 0px;*/
-}
 #destinations .imageDestination
 {
 	width: 100%;
@@ -57,7 +51,20 @@
 
 #destinations .blocDestination
 {
-	border: solid black 1px;
+	border: solid #FEA347 5px;
+	border-radius: 5px;
+	/*margin: 1px;*/
+}
+
+#destinations .txtDestination
+{
+	background-color: seagreen;
+	border-radius: 5px;
+}
+
+#footer h3
+{
+	font-size: 20px;
 }
 
 #footer h3:hover
@@ -82,21 +89,26 @@
 		position: fixed;
 		top: 33%;
 		left: 0%;
-		min-width: 115px;
-		width: 20%;
+		/*min-width: 115px;*/
+		max-width: 15%;
+		width: 15%;
 	}
 	
 	#siteContenu
 	{
-
 		position :absolute;
-		right: 0%;
+		right: 2.5%;
 		width:80%;
 	}
 	
 	#destinations .imageDestination
 	{
 		height: 60%;
+	}
+	
+	#footer h3
+	{
+		font-size: 35px;
 	}
 }
 
