@@ -32,21 +32,35 @@ body
 #menuLeft
 {
 	display: none;
+	border-top-right-radius: 10px; 
+	border-bottom-right-radius: 10px; 
 }
 
 #menuLeft a
 {
-	color: #fff;
+	color: #fff; 
+}
+
+#menuLeft .topLienMenu
+{
+	border-top-right-radius: 10px; 
+}
+
+#menuLeft .bottomLienMenu
+{
+	border-bottom-right-radius: 10px; 
 }
 
 #menuLeft a:hover
 {
-	color: black;
+	color: #fff;
+	background-color: cadetBlue;
 }
 
-#menuLeft a:visited
+#menuLeft a:focus
 {
-	color: black;
+	color: #fff;
+	background-color: cadetBlue;
 }
 
 #destinations .imageDestination
@@ -56,15 +70,25 @@ body
 
 #destinations .blocDestination
 {
-	border: solid #FEA347 5px;
-	border-radius: 5px;
-	/*margin: 1px;*/
+	/*border: solid #91c78a 2px;*/
+	border-radius: 10px;
+}
+
+#destinations .description
+{
+	text-decoration: dashed underline;
 }
 
 #destinations .txtDestination
 {
-	background-color: seagreen;
+	background-color: #91c78a;
 	border-radius: 5px;
+}
+
+#footer
+{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 #footer h3
@@ -90,6 +114,8 @@ body
 #carouselExampleIndicators
 {
 	display: none;
+	width: 90%;
+	margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -98,6 +124,7 @@ body
 		background-image: url(image/belle_image.jpg);
     	background-repeat: no-repeat;
     	background-attachment: fixed;
+    	background-size: cover;
 	}
 	
 	#navbarTop
@@ -111,7 +138,6 @@ body
 		position: fixed;
 		top: 33%;
 		left: 0%;
-		/*min-width: 115px;*/
 		max-width: 15%;
 		width: 15%;
 	}
@@ -144,7 +170,11 @@ body
 	}
 }
 
-
+#titre
+{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
 
 .paysage{
     width: 100%;
