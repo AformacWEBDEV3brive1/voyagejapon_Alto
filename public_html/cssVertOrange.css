@@ -114,13 +114,10 @@
 
 
 
-#belleImage .paysage{
+.paysage{
     width: 100%;
 }
 
-.fa-plane{
-    font-size: 100px;
-}
 
 .avion{
     background-image: url(image/avion.png);
@@ -137,3 +134,4 @@
     color: white;
     padding-top: 111%;
 }
+
