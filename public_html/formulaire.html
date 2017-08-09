@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Vert Orangé : Formulaire de contact</title>
+		<meta charset="UTF-8">
+		<link href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="cssVertOrange.css" />
+		<script src="formulairecontact.js"></script>
+	</head>
+	<body>
+		<div class="container bgOrange">
+			<form method="post" action="">
+				<div class="row form-group centrer">
+					<div id="blocMails" class="col-12">
+							<input type="text" name="mail" id="mail"
+							placeholder="Entrez votre adresse mail"
+							class="form-control"  />
+					<a  class="btn btn-primary" onclick="ajouterMail()">Ajouter un mail en copie (cc)</a>
+				
+					</div>
+					<div class="col-12">
+						<input type="text" name="titre" id="titre"
+							placeholder="Entrez le titre de votre message"
+							class="form-control"  />
+					</div>
+					<div class="col-12">
+						<textarea rows="4" cols="50" name="message" id="message"
+								class="form-control" placeholder="Entrez un message"></textarea>
+					</div>
+				</div>
+				<div class="row form-group centrer">
+					<div class="">
+						<select id="selectsujet" class="form-control" name="choix">
+							<option value="recrutement" selected="selected">Général</option>
+							<option value="divers">Prix</option>
+							<option value="divers">Réclamation</option>
+						</select>
+					</div>
+				</div>
+				<input type="submit" class="btn btn-success" onclick="envoiMessage()" />
+				<input type="reset" name="resetbutton" value="Annuler" class="btn btn-danger"/>
+			</form>
+		</div>
+	</body>
+</html>

@@ -26,8 +26,7 @@
 
 #menuLeft
 {
-    display: none;
-
+	display: none;
 }
 
 #menuLeft a
@@ -40,11 +39,11 @@
     color: black;
 }
 
-#destinations .row
+#menuLeft a:visited
 {
-    /*margin-left: 0px;
-    margin-right: 0px;*/
+	color: black;
 }
+
 #destinations .imageDestination
 {
     width: 100%;
@@ -52,37 +51,65 @@
 
 #destinations .blocDestination
 {
-    border: solid black 1px;
+	border: solid #FEA347 5px;
+	border-radius: 5px;
+	/*margin: 1px;*/
+}
+
+#destinations .txtDestination
+{
+	background-color: seagreen;
+	border-radius: 5px;
+}
+
+#footer h3
+{
+	font-size: 20px;
+}
+
+#footer h3:hover
+{
+	color: #FEA347;
+}
+
+#footer li a:hover
+{
+	color: #FEA347;
 }
 
 @media only screen and (min-width: 768px) {
-    #navbarTop
-    {
-        display: none;
-    }
-
-    #menuLeft
-    {
-        display: block;
-        position: fixed;
-        top: 33%;
-        left: 0%;
-        min-width: 115px;
-        width: 20%;
-    }
-
-    #siteContenu
-    {
-
-        position :absolute;
-        right: 0%;
-        width:80%;
-    }
-
-    #destinations .imageDestination
-    {
-        height: 60%;
-    }
+	#navbarTop
+	{
+		display: none;
+	}
+	
+	#menuLeft
+	{
+		display: block;
+		position: fixed;
+		top: 33%;
+		left: 0%;
+		/*min-width: 115px;*/
+		max-width: 15%;
+		width: 15%;
+	}
+	
+	#siteContenu
+	{
+		position :absolute;
+		right: 2.5%;
+		width:80%;
+	}
+	
+	#destinations .imageDestination
+	{
+		height: 60%;
+	}
+	
+	#footer h3
+	{
+		font-size: 35px;
+	}
 }
 
 
@@ -93,20 +120,18 @@
 
 
 .avion{
-    background-image: url(image/avion.png);
+    background-image: url(image/avion1.png);
     background-size: contain;
     background-repeat: no-repeat;
+    padding: 5%;
 }
 
-.taille{
-    width: 100px;
-    height: 100px;
-    padding-left: 23%;
+.policeBlanc{
+    color: green;
 }
 
-.engagement{
-   color:white;
-   
+@media only screen and (min-width: 768px) {
+    
 }
 
 

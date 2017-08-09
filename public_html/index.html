@@ -18,16 +18,16 @@
                 <script src="tether-1.3.3/src/js/tether.js"/></script>-->
 
         <script src="bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="scriptAgence_de_voyage.js"></script>
+        <script src="scriptAgence_de_voyage.js"></script>
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row no-gutters">
                 <div id="menuLeft" class="bgGris list-group">
-                    <a href="#" class="list-group-item list-group-item-action bgGris">Login</a>
-                    <a href="#" class="list-group-item list-group-item-action bgGris">Formulaire de contact</a> 
-                    <a href="#" class="list-group-item list-group-item-action bgGris">Conditions générales de ventes</a>
+                    <a href="login.html" class="list-group-item list-group-item-action bgGris">Login</a>
+                    <a href="formulaire.html" class="list-group-item list-group-item-action bgGris">Formulaire de contact</a> 
+                    <a href="cgv.html" class="list-group-item list-group-item-action bgGris">Conditions générales de ventes</a>
                 </div>
 
                 <div id="siteContenu" class="">
@@ -47,35 +47,39 @@
                             <div id="navbarCollapse" class="navbar-collapse collapse"
                                  aria-expanded="false">
                                 <ul class="nav navbar-nav">
-                                    <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Formulaire
+                                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="formulaire.html">Formulaire
                                             de contact</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Conditions
+                                    <li class="nav-item"><a class="nav-link" href="cgv.html">Conditions
                                             générales de ventes</a></li>
                                 </ul>
                             </div>
                         </nav>
                     </div>
 
-                    <div class="row">
-
+                    <div class="row no-gutters">
                         <div id="titre"
-                             class="col-12 col-md-12 col-lg-offset-2 col-lg-8 col-lg-offset-2 policeVert centrer bgOrange">
+                             class="col-12 policeVert centrer bgOrange">
                             <h1>Vert Orangé</h1>
                         </div>
 
                     </div>
 
-
-                    <div id="belleImage" class="row">
+                    <div id="belleImage" class="row no-gutters">
                         <img src="image/belle_image.jpg" alt="paysage japon"
                              class="paysage">
                     </div>
 
-
                     <div id="carouselExampleIndicators" class="carousel slide"
                          data-ride="carousel">
-
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"
+                                class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                        </ol>
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
                                 <img class="d-block img-fluid" src="image/paysage1.jpg"
@@ -109,7 +113,7 @@
                         </a>
                     </div>
 
-                    <div id="description" class="row">
+                    <div id="description" class="row no-gutters">
                         <div class="col-12 col-md-8 offset-md-2 bgOrange ">
                             <p class="centrer">L'agence VertOrangé vous proposent un large
                                 choix de week-ends, moyens et longs séjours au Japon et dans le
@@ -117,32 +121,32 @@
                         </div>
                     </div>
 
-                    <div id="destinations" class="bgVert row">
+                    <div id="destinations" class="bgVert row no-gutters">
                         <h2 class="centrer col-12">Nos 3 dernières destinations</h2>
 
                         <div class="col-12 col-sm-4 blocDestination">
-                            <div class="row">
+                            <div class="row no-gutters">
                                 <img class="col-6 col-md-4 imageDestination"
                                      src="image/destination1.jpeg" />
-                                <p class="col-6">Description: Il ne faut absolument pas
+                                <p class="col-6 txtDestination">Description: Il ne faut absolument pas
                                     manquer le palais impérial, où réside toujours l’empereur, et le
                                     musée Edo-Tokyo qui décrit l’histoire de la ville.</p>
                             </div>
                         </div>
                         <div class="col-12 col-sm-4 blocDestination">
-                            <div class="row">
+                            <div class="row no-gutters">
                                 <img class="col-6 col-md-4 imageDestination"
                                      src="image/destination2.jpg" />
-                                <p class="col-6">Description: Il ne faut absolument pas
+                                <p class="col-6 txtDestination">Description: Il ne faut absolument pas
                                     manquer le palais impérial, où réside toujours l’empereur, et le
                                     musée Edo-Tokyo qui décrit l’histoire de la ville.</p>
                             </div>
                         </div>
                         <div class="col-12 col-sm-4 blocDestination">
-                            <div class="row">
+                            <div class="row no-gutters">
                                 <img class="col-6 col-md-4 imageDestination"
                                      src="image/destination3.jpg" />
-                                <p class="col-6">Description: Il ne faut absolument pas
+                                <p class="col-6 txtDestination">Description: Il ne faut absolument pas
                                     manquer le palais impérial, où réside toujours l’empereur, et le
                                     musée Edo-Tokyo qui décrit l’histoire de la ville.</p>
                             </div>
@@ -153,78 +157,58 @@
                         <div class="container">
 
                             <h1 class="centrer"> Nos engagements qualité </h1>
-
+                            
                             <div class="row">
-
-                                <div class="taille avion">
-                                    <div class="engagement">
-                                    <p>Respect</p>
-                                </div>  
+                                
+                                <div class="avion col-6 col-sm-3">
+                                    <p class="policeBlanc"> Respect </p>
                                 </div>
                                 
-                                <div class="taille avion ">
-                                    <div class="engagement">
-                                    <p>Respect</p>
+                                <div class="avion col-6 col-sm-3">
+                                    <p class="policeBlanc"> Pas chère</p>
+                                </div>
+                                
+                                <div class="avion col-6 col-sm-3">
+                                    <p class="policeBlanc"> Sérénité</p>
+                                </div>
+                                
+                                <div class="avion col-6 col-sm-3">
+                                    <p class="policeBlanc"> Paimements sécurisé</p>
                                 </div>
                                 </div>
-
-                                <div class= "taille avion">
-                                    <div class="engagement">
-                                    <p>Respect</p>
-                                </div>
-                                </div>            
-
-                                <div class="taille avion">
-                                    <div class="engagement">
-                                    <p>Respect</p>
-                                </div>
-                                </div>
-
-                            </div>
-
                             <div class="row">
-
-                                <div  class="taille avion">
-                                    <div class="engagement">
-                                    <p>Respect</p>
+                                
+                                <div class="avion col-6 col-sm-3">
+                                    <p class="policeBlanc"> Conseils</p>
                                 </div>
+                                
+                                <div class="avion col-6 col-sm-3">
+                                    <p class="policeBlanc">Voyage sur mesure</p>
                                 </div>
-
-                                <div  class="taille avion">
-                                    <div class="engagement">
-                                    <p>Respect</p>
+                                
+                                <div class="avion col-6 col-sm-3">
+                                    <p class="policeBlanc"> Assistance 24/7</p>
                                 </div>
+                                
+                                <div class="avion col-6 col-sm-3">
+                                    <p class="policeBlanc"> Bonheur</p>
                                 </div>
-
-                                <div  class="taille avion">
-                                    <div class="engagement">
-                                    <p>Respect</p>
-                                </div>
-                                </div>
-
-                                <div class="taille avion">
-                                    <div class="engagement">
-                                    <p>Respect</p>
-                                </div>
-                                </div>
-
-
-                            </div> 
+                                
+                            </div>
+                            
                         </div>
                     </div>
 
-
-
                     <div id="maps">
-                        <iframe class="paysage" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1672.8495338261964!2d1.512351930950322!3d45.15902572961624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1502264597196" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe class="paysage" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1672.8495338261964!2d1.512351930950322!3d45.15902572961624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1502264597196" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>   
                     </div>
 
-
-
-                    <div id="footer" class="row bgGris">
-                        <h3 class="col-4">VertOrangé</h3>
+                    <div id="footer" class="row no-gutters bgGris">
                         <div class="col-4">
-                            <a>Notre formulaire de contact</a>
+                            <h3 class="policeVert">VertOrangé</h3>
+                        </div>
+                        <div class="col-4">
+                            <a href="formulaire.html">Notre formulaire de contact</a>
                             <p>05 55 55 66 66</p>
                             <p>123 Rue Bidon 19100 Brive-La-Gaillarde</p>
                         </div>
