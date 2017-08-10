@@ -1,3 +1,8 @@
+body
+{
+    background-color: #677179;
+}
+
 .centrer{
     text-align: center;
 }
@@ -13,9 +18,28 @@
 .bgOrange{
     background-color: #FEA347;
 }
+.policeBlanc{
+    color: white;
+}
 
 .policeVert{
     color: #00561B;
+}
+.policeOrange{
+    color: #b17231;
+}
+
+.padding_section{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#engagements .padding_row{
+    padding: 2%
+}
+
+#engagements .police_avion{
+    color: white;
 }
 
 #navbarTop
@@ -26,22 +50,36 @@
 
 #menuLeft
 {
-	display: none;
+    display: none;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
 }
 
 #menuLeft a
 {
-    color: #fff;
+    color: #fff; 
+}
+
+#menuLeft .topLienMenu
+{
+    border-top-right-radius: 10px; 
+}
+
+#menuLeft .bottomLienMenu
+{
+    border-bottom-right-radius: 10px; 
 }
 
 #menuLeft a:hover
 {
-    color: black;
+    color: #fff;
+    background-color: cadetBlue;
 }
 
-#menuLeft a:visited
+#menuLeft a:focus
 {
-	color: black;
+    color: #fff;
+    background-color: cadetBlue;
 }
 
 #destinations .imageDestination
@@ -51,85 +89,190 @@
 
 #destinations .blocDestination
 {
-	border: solid #FEA347 5px;
-	border-radius: 5px;
-	/*margin: 1px;*/
+    /*border: solid #91c78a 2px;*/
+    border-radius: 10px;
+}
+
+#destinations .description
+{
+    text-decoration: dashed underline;
 }
 
 #destinations .txtDestination
 {
-	background-color: seagreen;
-	border-radius: 5px;
+    background-color: #91c78a;
+    border-radius: 5px;
+}
+
+#footer
+{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-top: 2%;
 }
 
 #footer h3
 {
-	font-size: 20px;
+    font-size: 16px;
 }
 
 #footer h3:hover
 {
-	color: #FEA347;
+    color: #FEA347;
 }
 
 #footer li a:hover
 {
-	color: #FEA347;
+    color: #FEA347;
 }
 
-@media only screen and (min-width: 768px) {
-	#navbarTop
-	{
-		display: none;
-	}
-	
-	#menuLeft
-	{
-		display: block;
-		position: fixed;
-		top: 33%;
-		left: 0%;
-		/*min-width: 115px;*/
-		max-width: 15%;
-		width: 15%;
-	}
-	
-	#siteContenu
-	{
-		position :absolute;
-		right: 2.5%;
-		width:80%;
-	}
-	
-	#destinations .imageDestination
-	{
-		height: 60%;
-	}
-	
-	#footer h3
-	{
-		font-size: 35px;
-	}
+#footer .lien_form{
+    color: #FEA347;
+}
+
+#belleImage
+{
+    display: block;
+}
+
+#carouselExampleIndicators
+{
+    display: none;
+    width: 100%;
+    margin: 0 auto;
 }
 
 
+#titre .titre_pimp{
+    letter-spacing: 7px;
+    font-size: 20px;
+}
 
 .paysage{
     width: 100%;
 }
 
-
-.avion{
+#engagements .avion{
     background-image: url(image/avion1.png);
     background-size: contain;
     background-repeat: no-repeat;
     padding: 5%;
+    min-height: 64px;
+    background-position-x: 10%;
 }
 
-.policeBlanc{
-    color: green;
+#engagements .avion p{
+        position: relative;
+        top: 25%;
+    }
+
+
+#description .align_texte{
+    padding-top: 2%;
 }
 
 
+@media only screen and (min-width: 768px) {
+    body
+    {
+        background-image: url(image/belle_image.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    #navbarTop
+    {
+        display: none;
+    }
+
+    #menuLeft
+    {
+        display: block;
+        position: fixed;
+        top: 33%;
+        left: 0%;
+        max-width: 15%;
+        width: 15%;
+    }
+
+    #siteContenu
+    {
+        position :absolute;
+        right: 2.5%;
+        width:80%;
+    }
+
+    #titre .titre_pimp{
+        font-size: 40px;
+    }
+
+    #titre{
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    #belleImage
+    {
+        display: none;
+    }
+
+    #carouselExampleIndicators
+    {
+        display: block;
+
+    }
+
+    #carouselExampleIndicators .carousel-inner{
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px; 
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px; 
+    }
 
 
+    #destinations{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+    #destinations .imageDestination
+    {
+        height: 60%;
+    }
+
+    #destinations .ecartement_photo{
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+
+    #engagements .avion{
+        background-image: url(image/avion1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 5%;
+        min-height: 64px;
+        background-position-x: 0%;
+    }
+
+    #engagements .avion p{
+        position: relative;
+        left: 8%;
+        top: 25%;
+
+    }
+    
+    #engagements .police_avion{
+        color: #00561B; 
+    }
+
+    #footer h3
+    {
+        font-size: 35px;
+    }
+
+    #maps iframe{
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+}
